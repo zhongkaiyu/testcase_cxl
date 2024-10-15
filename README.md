@@ -15,8 +15,8 @@ sh run.sh
 ```
 
 ## Results
-cxl_output.txt
-host_output.txt
+- cxl_output.txt
+- host_output.txt
 
 <!-- - Small:  10000000    1000
 - Middle: 100000000   5000
