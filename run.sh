@@ -8,15 +8,15 @@ rm -f host_output.txt
 #     sudo ./build/numa_benchmark 1 100000 $block >> output.txt
 # done
 
-# blocksize_init=64
-# blocksize_upper=$(echo "64 * 1024^2" | bc)
-# totaldata_init=$(echo "64 * 1024^2" | bc)
-# totaldata_upper=$(echo "4 * 1024^3" | bc)
-
 blocksize_init=64
-blocksize_upper=$(echo "128" | bc)
+blocksize_upper=$(echo "64 * 1024^2" | bc)
 totaldata_init=$(echo "64 * 1024^2" | bc)
-totaldata_upper=$(echo "128 * 1024^2" | bc)
+totaldata_upper=$(echo "4 * 1024^3" | bc)
+
+# blocksize_init=64
+# blocksize_upper=$(echo "128" | bc)
+# totaldata_init=$(echo "64 * 1024^2" | bc)
+# totaldata_upper=$(echo "128 * 1024^2" | bc)
 
 
 blocksize=$blocksize_init
