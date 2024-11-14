@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define NUM_ITERATIONS 10
+#define NUM_ITERATIONS 50
 
 void bandwidth_throughput_benchmark(int node, long long array_size, long long block_size)
 {
